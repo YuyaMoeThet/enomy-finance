@@ -1,0 +1,187 @@
+@charset "UTF-8";
+
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the main background with brighter purple and green */
+.main {
+	text-align: center;
+	width: 100vw; 
+    height: 100vh; 
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url(1.jpg);
+    background-size: cover;
+    background: linear-gradient(to bottom, #d81b60, #4caf50); /* Brighter Purple to Brighter Green gradient */
+}
+
+/* Style the navigation bar */
+.navbar {
+    width: 100%; /* Full width */
+    height: 75px;
+    background: #333; /* Dark background color */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Style the logo */
+.logo {
+    color: #03a9f4; /* Brighter blue color for the logo */
+    font-size: 35px;
+    font-family: Arial, sans-serif; /* Use a sans-serif font */
+    padding-left: 20px;
+}
+
+/* Style the menu items */
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li {
+    margin: 0 20px; /* Increase margin for spacing */
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #f44336; /* Brighter red color for menu links */
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.menu ul li a:hover {
+    color: #ff5722; /* Brighter orange color on hover */
+}
+
+
+/* Add some padding to the content area and change the font color */
+.content {
+    width: 1200px;
+    margin: 0 auto;
+    color: #fff; /* White font color */
+    padding: 20px;
+    position: relative;
+}
+
+/* Style the call to action button */
+.content .cn {
+    width: 160px;
+    height: 40px;
+    background: #f44336; /* Change button background color to brighter red */
+    border: none;
+    margin-bottom: 100px;
+    font-size: 18px;
+    border-radius: 10px; /* Rounded corners */
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.content .cn a {
+    text-decoration: none;
+    color: #03a9f4; /* Change text color to brighter blue */
+    transition: .3s ease;
+}
+
+.cn:hover {
+    background-color: #ff5722; /* Change hover background color to brighter orange */
+}
+
+/* Change the font color and size of the content */
+.content span {
+    color: #fff; /* Change the span color to brighter red */
+    font-size: 65px;
+}
+
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 80px;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+button.btnn {
+  width: 200px;
+  height: 40px;
+  background: #ff7200;
+  border: none;
+  margin-top: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.4s ease;
+}
+
+button.btnn:hover {
+  background: #fff;
+  color: #ff7200;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+/* Style the form container */
+.form {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 50px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+
+
+.form input {
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form label {
+    font-weight: bold;
+}
+
+/* Style form input placeholders */
+.form input::placeholder {
+    color: #777;
+}
+
+/* Style the icons */
+.icons a {
+    color: #333;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+/* Add more custom styling as needed */
